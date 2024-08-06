@@ -8,3 +8,6 @@ lint:
 
 format:
 	./scripts/format.sh
+
+web:
+	uvicorn app.main:app
