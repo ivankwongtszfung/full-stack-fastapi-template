@@ -1,5 +1,14 @@
 # FastAPI Project - Backend
 
+
+## setup
+
+```bash
+poetry install
+alembic init app/alembic
+
+```
+
 ## Local Development
 
 * Start the stack with Docker Compose:
